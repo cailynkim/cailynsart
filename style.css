@@ -1,0 +1,234 @@
+pre{
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 1.7vw;
+	color: rgb(71,131,130);
+}
+* {
+    box-sizing: border-box;
+}
+	img.browseimg{
+		opacity:0.5; 
+	}
+	.indexGallary{
+		margin:0 auto;
+		width: 80vw; 
+	}
+
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+
+body {
+	position: relative;
+	min-height: 15	0vw;
+	width: 88vw;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+	text-align:center;
+	background-color: white;
+}
+h1{
+	font-size: 6vw;
+	color: white;
+	font-family: 'Megrim', cursive;
+}
+h2{
+	text-align: center;
+	font-size: 1.6666666666666667vw;
+}
+h3{
+	font-size: 3.3333333333333335vw;
+	color: white;
+	font-weight: 16.666666666666668vw;
+}
+p{
+	text-align: center;
+	font-size: 	2vw;
+	margin-top: -2vw;
+	color:rgb(255, 255, 255);
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+	z-index: 1;
+	margin: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+	height: 5vw;
+	width: 100vw;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(187, 187, 187);
+    text-align: center;
+    padding: 1vw 2vw;
+    text-decoration: none;
+	font-size: 1.2vw; 
+}
+.navbar h4
+{	margin-top: 0vw;
+	float: left;
+    display: block;
+    color: rgb(238, 190, 190);
+    text-align: center;
+    padding: 1.1666666666666667vw 2.0833333333333335vw;
+    text-decoration: none;
+	font-size: 1.5vw;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    color: rgb(71, 131, 130);
+}
+.navbar a.active {
+    color: rgb(238, 190, 190);
+}
+
+#content-wrap {
+  padding-bottom: 13vw; 
+}
+
+ .Parallax {
+  background-image: url("ParallaxBackground.png");
+  background-size: 100vw auto;
+  height: 18vw;
+  background-attachment: fixed;
+  
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: auto;
+}
+
+
+video{
+	height: auto;
+	width: 100%;
+}
+
+ .parallax2 {
+  position: inherit;
+  text-align: center;
+  overflow: auto;
+  float: left;
+  margin-left: 10vw;
+}
+
+.navbar a.name{
+	color: rgb(238, 190, 190);
+	float: left;
+}
+video{
+	height: 28vw;
+	width: auto;
+}
+h6{
+	font-weight: 200;
+	text-align: center;
+	font-size: 2.0833333333333335vw;
+	color:rgba(71, 131, 130, 0.699);
+	width: 83.33333333333333vw;
+    padding: 1.25vw;
+    margin: auto;
+	}
+
+.container {
+  position: relative;
+  width: fit-content;
+  margin-left: 2vw;
+  margin-bottom: 1.5vw;
+}
+
+
+
+.container:hover .overlay{
+  opacity: 0.95;
+}
+
+.overlay {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(238, 190, 190);
+}
+
+
+.text {
+  color: white;
+  position: relative;
+  font-size: 1vw;
+  top: 50vw;
+  left: 50vw;
+  -webkit-transform: translate(-50vw, -50vw);
+  -ms-transform: translate(-50vw, -50vw);
+  transform: translate(-50vw, -50vw);
+  text-align: center;
+  margin: 1vw;
+} 
+
+div.gallery {
+  margin: 0.5vw;
+  float: left;
+}
+
+@media screen and (min-width: 41.666666666666664vw) {
+   body {
+      width:43.333333333333336vw;
+   }
+}
+
+@media screen and (min-width:66.66666666666667vw) {
+   body {
+      width:101.66666666666667vw;
+   }
+}
+video {
+  width: auto;
+  height: 28vw;
+}
+.centered {
+  color:rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  font-size: 3vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.browse {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+    text-align: center;
+    background: rgb(236, 236, 236);
+	position: relative;
+	margin-top: -200vw;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 13vw;
+	width: auto;
+	clear: both;
+}
+.vidLink{
+		text-decoration: underline;
+		color: rgb(238, 190, 190);
+		text-align: left;
+	}
+
+	.aboutMe{
+		background-color: rgb(238, 190, 190);
+		padding: 4vw;
+		margin-top:14vw;
+		color: white;
+	}
